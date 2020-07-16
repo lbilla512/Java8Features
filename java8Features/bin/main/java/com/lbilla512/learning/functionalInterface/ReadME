@@ -1,0 +1,9 @@
+Predicate:
+boolean test(T t)
+
+Comparator:
+int compare(T o1, T o2)
+boolean equals(Object obj)
+ 
+ 
+
