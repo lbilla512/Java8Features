@@ -31,6 +31,10 @@ public class Employee {
 	}
 	public void setDob(Date dob) {
 		this.dob = dob;
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", id=" + id + ", dob=" + dob + "]";
 	}	
 	
 }
